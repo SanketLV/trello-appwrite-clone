@@ -30,8 +30,8 @@ export async function POST(request: Request) {
   // const { data } = response;
 
   // console.log("DATA IS: ", data);
-  console.log("DATA IS: ", response);
-  console.log(response.choices[0].message);
+  // console.log("DATA IS: ", response);
+  // console.log(response.choices[0].message);
 
   return NextResponse.json(response.choices[0].message);
 }
