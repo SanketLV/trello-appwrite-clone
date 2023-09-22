@@ -37,7 +37,7 @@ const TodoCard = ({
         </button>
       </div>
 
-      {/* Add image here... */}
+      {/* //* Add image here... */}
     </div>
   );
 };
